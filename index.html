@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystals Collector</title>
+
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<script
+  	src="https://code.jquery.com/jquery-3.2.1.min.js"
+  	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  	crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-8">
+			<div class="panel panel-primary text-center">
+				<div class="panel-title">
+					<h1>CRYSTALS COLLECTOR!</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-6">
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<h3 class="panel-title text-center">Instructions</h3>
+				</div>
+				<div class="panel-body">
+					<p>You will be given a random number at the start of the game
+					</p>
+					<p>There are four cyrstals below. By clicking on a crystal you will add a specific amount of points to your total score.
+					</p>
+					<p>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.
+					</p>
+					<p>The value of each crystal is hidden from you until you click on it.
+					</p>
+					<p>Each time when the game starts, the game will change the values of each crystal.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-3">
+			<div class="panel panel-primary text-center">
+				<div class="panel-heading">
+					<h3 id="targetScore"> PUT RANDOM NUMBER IN THIS ONE 
+					</h3>
+				</div>	
+			</div>		
+		</div>
+		<div class="col-sm-3">
+			<div class="panel panel-primary">
+				<div class="panel-body">
+					<h3 id="wins">Wins: 0
+					</h3>
+					<h3 id="losses">Losses: 0
+					</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="panel-body">
+			<div class="col-sm-2">
+				<div class="panel panel-primary text-center">
+					<div class="panel-body">
+						<img class="img-responsive" src="assets/images/blue.jpg" alt="blue" id="blue">
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-2">
+				<div class="panel panel-primary text-center">
+					<div class="panel-body">
+						<img class="img-responsive" src="assets/images/green.png" alt="green" id="green">
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-2">
+				<div class="panel panel-primary text-center">
+					<div class="panel-body">
+						<img class="img-responsive" src="assets/images/red.jpg" alt="red" id="red">
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-2">
+				<div class="panel panel-primary text-center">
+					<div class="panel-body">
+						<img class="img-responsive" src="assets/images/yellow.jpg" alt="yellow" id="yellow">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-3">
+			<div class="panel panel-primary text-center">
+				<div class="panel-heading">
+					<p> Your total score is:
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-3">
+			<div class="panel panel-primary text-center">
+				<div class="panel-body">
+					<h3 id="myScore">PUT MY SCORE HERE
+					</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script src="assets/javascript/game.js">
+
+</script>
+
+</body>
+</html>
